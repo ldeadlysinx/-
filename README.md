@@ -10,7 +10,7 @@
 
 ### 🙋‍♀️ 작업기능
 - TCP/IP 소켓 통신: 클라이언트 서버 간의 통신
-[소켓통신]https://www.notion.so/TCP-IP-1036676582de80f2bf02f1f45d15d9d3
+[소켓통신][https://www.notion.so/TCP-IP-1036676582de80f2bf02f1f45d15d9d3](https://holy-taste-f34.notion.site/TCP-IP-1036676582de80f2bf02f1f45d15d9d3)
 
 - 작업 큐 처리
 ```c
@@ -30,9 +30,9 @@ pthread_mutex_lock(&queue_lock);
 멀티스레드 환경에서는 여러 스레드가 동시에 같은 자원(예: 변수, 데이터 구조)에 접근할 수 있습니다. 이 경우, 데이터의 일관성 및 무결성이 깨질 수 있습니다. pthread_mutex_lock() 함수는 특정 자원에 대한 접근을 한 스레드만 허용하도록 하여 이러한 문제를 방지합니다.
 
 - 자식 프로세스
-https://www.notion.so/f501b039ab6143608eae690e317af4ca
+[https://www.notion.so/f501b039ab6143608eae690e317af4ca](https://holy-taste-f34.notion.site/f501b039ab6143608eae690e317af4ca)
 - 시그널 종료
-https://www.notion.so/50179384893b47dd93a70f77a842b520 
+[https://www.notion.so/50179384893b47dd93a70f77a842b520 ](https://holy-taste-f34.notion.site/50179384893b47dd93a70f77a842b520)
 - o3 최적화
 ```
 gcc -o3 server server.c backup.c -lpthread
